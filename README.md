@@ -1,0 +1,2 @@
+# TamagotchiApp
+ Android Studio Project
