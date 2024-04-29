@@ -79,11 +79,11 @@ To make the user interface neater, if possible, the app will have most features 
 
 <p>This is the app when opened below:</p>
 
-![app boot up]() <br>
+![main up]() <br>
 
 <p>This is the app accessing the main page, pushing the buttons to feed, clean and play and chnages to the statuses respectively.</p>
 
-![Main page]()<br>
+![second page]()<br>
 ![Pushing of feeding, cleaning and playing buttons]()<br>
 ![Changes of statuses]()<br>
 
