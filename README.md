@@ -75,17 +75,17 @@ To make the user interface neater, if possible, the app will have most features 
 
 
 ## 🎈 Usage <a name="usage"></a>
-<P>the user simply needs to input their age in the specified line, and press the 'Search' button to find the person they match with.</P>
+<P>The user only needs to boot up the app, and click on the begin button to the second page. The next page will show the initial view of the pet and 3 buttons and the pet's statuses below. The user only needs to click on the respective buttons to conduct the various activities with the pet. Each activity will be inidcated by the change of the images of the pet. The seekbars will increase with each button push and then decrease gradually over time.</P>
 
 <p>This is the app when opened below:</p>
 
 ![app boot up](https://github.com/MoePane/TheHistoryApp/assets/161456812/a5cde71f-bba3-4b55-ad68-db33895af775) <br>
 
-<p>This is the app executing the match, no match and erros respectively</p>
+<p>This is the app accessing the main page, pushing the buttons to feed, clean and play and chnages to the statuses respectively.</p>
 
-![Match](https://github.com/MoePane/TheHistoryApp/assets/161456812/aff14fdb-9be0-49e9-b3ea-691b6f6658c3)<br>
-![app no match](https://github.com/MoePane/TheHistoryApp/assets/161456812/560892c5-6f88-4d70-95b1-e730a899fc06)<br>
-![app input error](https://github.com/MoePane/TheHistoryApp/assets/161456812/36642778-03df-4469-b3e7-1799797344eb)<br>
+![Main page](https://github.com/MoePane/TheHistoryApp/assets/161456812/aff14fdb-9be0-49e9-b3ea-691b6f6658c3)<br>
+![Pushing of feeding, cleaning and playing buttons](https://github.com/MoePane/TheHistoryApp/assets/161456812/560892c5-6f88-4d70-95b1-e730a899fc06)<br>
+![Changes of statuses](https://github.com/MoePane/TheHistoryApp/assets/161456812/36642778-03df-4469-b3e7-1799797344eb)<br>
 
 ## YouTube video
 <p>Video demonstration of app</p>
