@@ -78,12 +78,6 @@ To make the user interface neater, if possible, the app will have most features 
 <P>The user only needs to boot up the app, and click on the begin button to the second page. The next page will show the initial view of the pet and 3 buttons and the pet's statuses below. The user only needs to click on the respective buttons to conduct the various activities with the pet. Each activity will be inidcated by the change of the images of the pet. The seekbars will increase with each button push and then decrease gradually over time.</P>
 
 <p>This is the app when opened below:</p>
-![Main page](https://github.com/MoePane/TamagotchiApp/assets/161456812/094cf73b-df93-410a-8088-bae5e82f070d)
-![Play](https://github.com/MoePane/TamagotchiApp/assets/161456812/212f0871-c529-456e-b0f1-d006a4d438bd)
-![Status change](https://github.com/MoePane/TamagotchiApp/assets/161456812/ac01b6b7-fe3d-4cf4-9526-38a15c9910b0)
-![Second page](https://github.com/MoePane/TamagotchiApp/assets/161456812/5d9aebe5-4e4d-4f1e-9e48-2e3dbcd21829)
-![Clean](https://github.com/MoePane/TamagotchiApp/assets/161456812/0012c68e-cdf9-46e5-8b21-be4434c8b95a)
-![Feed](https://github.com/MoePane/TamagotchiApp/assets/161456812/6186c7c0-7195-471d-a4fb-fda53d68eae2)
 
 ![main up](https://github.com/MoePane/TamagotchiApp/assets/161456812/094cf73b-df93-410a-8088-bae5e82f070d) <br>
 
