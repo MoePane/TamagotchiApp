@@ -58,19 +58,19 @@ To make the user interface neater, if possible, the app will have most features 
 <h3>Repositories</h3>
 <p>This is the initial area where the files containin the source code and other necessary files for the app.</p>
 
-![Repository](https://github.com/MoePane/TheHistoryApp/assets/161456812/28956763-0a99-484d-9211-ffb9f9bfe749) 
+![Repository]() 
 
 
 <h3>GithubActions</h3>
 <p>Using the 'Actions' option, it is possible to run build and test actions to view the overall functiuonality of the app.</p><br>
 
-![Running Local test](https://github.com/MoePane/TheHistoryApp/assets/161456812/b5b05abf-2d5c-44fa-a250-e2677da40b39) <br>
+![Running Local test]() <br>
 
-![Android Test](https://github.com/MoePane/TheHistoryApp/assets/161456812/de5b983a-ba30-4cbf-92f4-a140ebad3b68) <br>
+![Android Test]() <br>
 
-![Build](https://github.com/MoePane/TheHistoryApp/assets/161456812/f182a5f0-857c-4eb8-af14-e7f51c504235)<br>
+![Build]()<br>
 
-![Building APK](https://github.com/MoePane/TheHistoryApp/assets/161456812/40e0abfc-c745-42ce-835a-e274e9e9a4cd) <br>
+![Building APK]() <br>
 
 
 
@@ -79,13 +79,13 @@ To make the user interface neater, if possible, the app will have most features 
 
 <p>This is the app when opened below:</p>
 
-![app boot up](https://github.com/MoePane/TheHistoryApp/assets/161456812/a5cde71f-bba3-4b55-ad68-db33895af775) <br>
+![app boot up]() <br>
 
 <p>This is the app accessing the main page, pushing the buttons to feed, clean and play and chnages to the statuses respectively.</p>
 
-![Main page](https://github.com/MoePane/TheHistoryApp/assets/161456812/aff14fdb-9be0-49e9-b3ea-691b6f6658c3)<br>
-![Pushing of feeding, cleaning and playing buttons](https://github.com/MoePane/TheHistoryApp/assets/161456812/560892c5-6f88-4d70-95b1-e730a899fc06)<br>
-![Changes of statuses](https://github.com/MoePane/TheHistoryApp/assets/161456812/36642778-03df-4469-b3e7-1799797344eb)<br>
+![Main page]()<br>
+![Pushing of feeding, cleaning and playing buttons]()<br>
+![Changes of statuses]()<br>
 
 ## YouTube video
 <p>Video demonstration of app</p>
