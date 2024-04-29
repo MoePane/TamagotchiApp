@@ -87,10 +87,27 @@ To make the user interface neater, if possible, the app will have most features 
 
 ![main up](https://github.com/MoePane/TamagotchiApp/assets/161456812/094cf73b-df93-410a-8088-bae5e82f070d) <br>
 
-<p>This is the app accessing the main page, pushing the buttons to feed, clean and play and chnages to the statuses respectively.</p>
+<p>This is the app accessing the main page, pushing the buttons to feed, clean and play and chnages to the statuses respectively.</p><br>
 
-![second page](https://github.com/MoePane/TamagotchiApp/assets/161456812/5d9aebe5-4e4d-4f1e-9e48-2e3dbcd21829)<br><br>
-![Pushing of feeding, cleaning and playing buttons] <br>
+<p>This is the Second</p>
+
+![second page](https://github.com/MoePane/TamagotchiApp/assets/161456812/5d9aebe5-4e4d-4f1e-9e48-2e3dbcd21829) <br><br>
+
+<p>Pushin of feeding, cleaning and playing buttons</p><br>
+<pr>Feeding</pr>
+
+![Feed](https://github.com/MoePane/TamagotchiApp/assets/161456812/6186c7c0-7195-471d-a4fb-fda53d68eae2) <br><br>
+
+<p>Cleaning</p>
+
+![Clean](https://github.com/MoePane/TamagotchiApp/assets/161456812/0012c68e-cdf9-46e5-8b21-be4434c8b95a) <br><br>
+
+<p>Playing</p>
+
+![Play](https://github.com/MoePane/TamagotchiApp/assets/161456812/212f0871-c529-456e-b0f1-d006a4d438bd)<br><br>
+
+<p>Changes of statuses</p>
+
 ![Changes of statuses](https://github.com/MoePane/TamagotchiApp/assets/161456812/ac01b6b7-fe3d-4cf4-9526-38a15c9910b0)<br>
 
 ## YouTube video
@@ -100,5 +117,9 @@ https://youtu.be/32p16ahs8mo
 ## 🎉 References <a name = "references"></a>
 
 - References:
-  <p>W3Schools, 2024. Kotlin, 30 March 2024. [Online]. Available at:https://www.w3schools.com/ [Accessed 30 March 2024].</p>
+  <p>W3Schools, 2024. Kotlin, 23 April 2024. [Online]. Available at:https://www.w3schools.com/ [Accessed 30 March 2024].</p>
+  <p>GeeksforGeeks, 2024. Seekbar in Kotlin, 28 March 2022. [Online]. Available at: https://www.geeksforgeeks.org/seekbar-in-kotlin/ [Accessed 19 April 2024].</p>
+  <p>RRTuttors, 2024. Android image button - how to handle image button click events with kotlin code, [n,d]. [Online]. Available at: https://rrtutors.com/tutorials/Android-ImageButton-example-using-Kotlin-in-Android-Studio [Accessed 20 April 2024].</p>
+  <p>Tutlane, 2024. Android seek bar with examples, [n,d]. [Online]. Available at: https://www.tutlane.com/tutorial/android/android-seekbar-with-examples [Accessed 25 April 2024] </p>
+  <p>Stackoverflow, 2024. Android SeekBar set progress value, [n,d]. [Online]. Available at: https://stackoverflow.com/questions/9792888/android-seekbar-set-progress-value [Accessed 26 April 2024].</p>
       
