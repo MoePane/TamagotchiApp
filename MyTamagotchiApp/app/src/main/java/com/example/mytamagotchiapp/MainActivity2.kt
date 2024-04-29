@@ -11,6 +11,9 @@ import android.widget.SeekBar
 import android.widget.Switch
 
 class MainActivity2 : AppCompatActivity() {
+
+    private lateinit var handler: Handler
+    private lateinit var decreaseSeekBarRunnable: Runnable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -25,51 +28,35 @@ class MainActivity2 : AppCompatActivity() {
         var wash = findViewById<SeekBar>(R.id.sbCle)
 
 
-        var happinessLevel = 100
-        var hungerLevel = 100
-        var cleanlinessLevel = 100
-        var RateDecrease = 5
-        var IntervalUpdate = 1000
 
         kin.visibility = View.VISIBLE
 
-        var handler = Handler(Looper.getMainLooper())
-        var updateStatusRunnable = object : Runnable{
-            override fun run() {
-                decreaseStatus()
-                handler.postDelayed(this, IntervalUpdate.toLong())
+        handler = Handler()
+        decreaseSeekBarRunnable = Runnable {
+
+            val currentProgress = hap.progress
+            if (currentProgress > 0) {
+                hap.progress = currentProgress - 1
+
+                val currentProgress1 = hun.progress
+                if (currentProgress1 > 0) {
+                    hun.progress = currentProgress1 - 1
+                }
+
+                val currentProgress2 = wash.progress
+                if (currentProgress2 > 0) {
+                    wash.progress = currentProgress2 - 1
+                }
+
+            } else {
+                handler.removeCallbacks(decreaseSeekBarRunnable)
             }
 
-            private fun decreaseStatus() {
-                hungerLevel= RateDecrease
-                happinessLevel = RateDecrease
-                cleanlinessLevel = RateDecrease
-
-                hungerLevel = hungerLevel.coerceAtLeast(0)
-                happinessLevel = happinessLevel.coerceAtLeast(0)
-                cleanlinessLevel = cleanlinessLevel.coerceAtLeast(0)
-
-                updateUI()
-            }
-
-            private fun updateUI() {
-                hap.progress = happinessLevel
-                hun.progress = hungerLevel
-                wash.progress = cleanlinessLevel
-            }
-
+            handler.postDelayed(decreaseSeekBarRunnable, 1000)
         }
 
-        fun onResume() {
-            super.onResume()
-            handler.postDelayed(updateStatusRunnable,IntervalUpdate.toLong())
+        handler.post(decreaseSeekBarRunnable)
 
-        }
-
-        fun onPause() {
-            super.onPause()
-            handler.removeCallbacks(updateStatusRunnable)
-        }
 
 
 
@@ -80,25 +67,24 @@ class MainActivity2 : AppCompatActivity() {
 
         fe.setOnClickListener {
             kin.setImageResource(R.drawable.dog_eating_food)
-            val currentHunger = hun.progress
-            val newHunger = currentHunger + 10
-            hun.progress = newHunger.coerceAtMost(100)
+            val currenthunger = hun.progress
+            val newhunger = currenthunger + 10
+            hun.progress = newhunger.coerceAtMost(100)
         }
 
         pla.setOnClickListener {
             kin.setImageResource(R.drawable.dog_playing1)
-            val currentHunger = hap.progress
-            val newHunger = currentHunger + 10
-            hap.progress = newHunger.coerceAtMost(100)
+            val currenthappiness = hap.progress
+            val newhappiness = currenthappiness + 10
+            hap.progress = newhappiness.coerceAtMost(100)
         }
 
         cle.setOnClickListener {
             kin.setImageResource(R.drawable.dog_bathing2)
-            val currentHunger = wash.progress
-            val newHunger = currentHunger + 10
-            wash.progress = newHunger.coerceAtMost(100)
+            val currentCleanliness = wash.progress
+            val newCleanliness = currentCleanliness + 10
+            wash.progress = newCleanliness.coerceAtMost(100)
         }
-
 
 
 
