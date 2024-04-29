@@ -58,19 +58,19 @@ To make the user interface neater, if possible, the app will have most features 
 <h3>Repositories</h3>
 <p>This is the initial area where the files containin the source code and other necessary files for the app.</p>
 
-![Repository]() 
+![Repository](https://github.com/MoePane/TamagotchiApp/assets/161456812/a18b75a5-fa73-472a-9a23-2309cd6a0ef8) 
 
 
 <h3>GithubActions</h3>
 <p>Using the 'Actions' option, it is possible to run build and test actions to view the overall functiuonality of the app.</p><br>
 
-![Running Local test]() <br>
+![Running Local test](https://github.com/MoePane/TamagotchiApp/assets/161456812/98b79e61-f665-415b-8329-36d846ef12d7) <br>
 
-![Android Test]() <br>
+![Android Test](https://github.com/MoePane/TamagotchiApp/assets/161456812/0794b004-15a9-41d5-b81f-0f389b343fe8) <br>
 
-![Build]()<br>
+![Build](https://github.com/MoePane/TamagotchiApp/assets/161456812/b54ab7ee-d8cf-449e-af12-eb48b06c0cb7)<br>
 
-![Building APK]() <br>
+![Building APK](https://github.com/MoePane/TamagotchiApp/assets/161456812/82916562-d65f-45d2-8640-513f1e375eac) <br>
 
 
 
